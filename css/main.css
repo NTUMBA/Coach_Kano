@@ -94,8 +94,79 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   *{
+     box-sizing: border-box;
+   }
+   body{
+     font-family: "Roboto", Helvetica, Arial, sans-serif;
+     color:#252525;
+     background-color:darkorchid;
+   }
+   header, footer{
+background-color: orangered;
+width: 100%;
+   }
+   .bar{
+     text-align: center;
+   }
+
+   .wrapper{
+     margin: 0 auto;
+     width: 70%;
+     height: 80%;
+     background-color: lawngreen;
+   }
+   ul {
+     display: flex;
+     justify-content: space-around;
+   }
+   li{
+     list-style: none;
+   }
+   /*Index======================================================================
+   ==============================================================================*/
+
+section{
+  background-color: rgb(40,50,78);
+}
+   /*carousel======================================================================*/
+   .carousel-inner img {
+     max-height: 50%;
+     width: 60%;
+   }
+   /*membership_form===============================================================*/
+   .form_sign_up{
+     /*border: 4px solid black;*/
+     padding-bottom: 10px;
+     text-align: center;
+   }
+   .button{
+     text-align: center;
+          background-color: lawngreen;
+   }
 
 
+   section .border{
+     border: 1px dotted deepskyblue;
+     font-family: Helvetica, sans-serif;
+       background-color: aliceblue;
+   }
+
+
+   footer{
+     margin-bottom: 0;
+   }
+   footer p{
+     text-align: center;
+
+   }
+   /* ##################################################################### */
+   /* Small devices (tablets, 769px and up) */
+      @media (min-width: 769px) {
+        .wrap{
+          min-height:100vh;
+              }
+}
 
 /* ==========================================================================
    Helper classes
