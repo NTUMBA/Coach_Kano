@@ -168,7 +168,7 @@ background-color: rgb(40,50,78);
 section .border{
   border: 1px dotted deepskyblue;
   font-family: Helvetica, sans-serif;
-    background-color: aliceblue;
+    background-color: violet;
 }
 
 
@@ -180,8 +180,9 @@ footer p{
 /* Small devices (tablets, 769px and up) */
    @media (min-width: 769px) {
      .wrap{
-       min-height:calc(100vh- 104px);
+       min-height:calc(100vh- 143px);
            }
+
 }
 /*very large screen*/
 
