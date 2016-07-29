@@ -164,11 +164,14 @@ background-color: rgb(40,50,78);
        background-color: lawngreen;
 }
 
-
+section p{
+    color: #eee;
+    text-align: center;
+}
 section .border{
   border: 1px dotted deepskyblue;
   font-family: Helvetica, sans-serif;
-    background-color: violet;
+  background-color: violet;
 }
 
 
