@@ -130,10 +130,18 @@ section{
   background-color: rgb(40,50,78);
 }
    /*carousel======================================================================*/
-   .carousel-inner img {
-     max-height: 50%;
-     width: 60%;
+   .carousel-inner{
+     max-height: 70%;
+     width: auto;
+     height: 700px;
    }
+  .carousel-inner img{
+    width: 90%;
+    height:85%;
+    margin: 10% auto;
+  }
+
+
    /*membership_form===============================================================*/
    .form_sign_up{
      /*border: 4px solid black;*/
@@ -153,9 +161,6 @@ section{
    }
 
 
-   footer{
-     margin-bottom: 0;
-   }
    footer p{
      text-align: center;
 
@@ -164,8 +169,20 @@ section{
    /* Small devices (tablets, 769px and up) */
       @media (min-width: 769px) {
         .wrap{
-          min-height:100vh;
+          min-height:calc(100vh- 104px);
               }
+}
+/*very large screen*/
+
+@media screen and (min-width: 1010px) {
+
+  .wrapper {
+    margin: 5% 5% 5% 15%;
+  }
+
+  .wrap {
+    height : auto;
+  }
 }
 
 /* ==========================================================================
