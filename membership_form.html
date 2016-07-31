@@ -62,7 +62,7 @@
                 <fieldset>
                     <div class="col-sm-6 col-md-3">
                       <legend><span class="number">A. </span>CONTACT INFORMATION</legend>
-                      <h5>Clic on rectangles to valid answer</h5>
+                      <h6>Make your choice by clicking on rectangle</h6>
 
                     </div>
                     <div class="col-sm-6 col-dm-3">
@@ -79,12 +79,12 @@
 
                     <div class="col-sm-6 col-md-3">
                       <label>DEPARTMENT</label><br>
-                      <label for="tourcoing">Nord</label><br><input type="radio" id="tourcoing" value="tourcoing" name="ville du client"><br>
-                      <label for="roubaix">Pas-de-Calais</label><br><input type="radio" id="roubaix" value="roubaix" name="ville du client"><br>
-                      <label for="wattrelos">Picardie</label><br><input type="radio" id="wattrelos" value="wattrelos" name="ville du client"><br>
-                      <label for="croix">Aisne</label><br><input type="radio" id="croix" value="croix" name="ville du client"><br>
-                      <label for="wasquehal">Somme</label><br><input type="radio" id="wasquehal" value="wasquehal" name="ville du client"><br>
-                      <label for="wasquehal">Ardennes</label><br><input type="radio" id="wasquehal" value="wasquehal" name="ville du client"><br>
+                      <label for="tourcoing">Nord</label><input type="radio" id="tourcoing" value="tourcoing" name="ville du client"><br>
+                      <label for="roubaix">Pas-de-Calais</label><input type="radio" id="roubaix" value="roubaix" name="ville du client"><br>
+                      <label for="wattrelos">Picardie</label><input type="radio" id="wattrelos" value="wattrelos" name="ville du client"><br>
+                      <label for="croix">Aisne</label><input type="radio" id="croix" value="croix" name="ville du client"><br>
+                      <label for="wasquehal">Somme</label><input type="radio" id="wasquehal" value="wasquehal" name="ville du client"><br>
+                      <label for="wasquehal">Ardennes</label><input type="radio" id="wasquehal" value="wasquehal" name="ville du client">
                       <!-- radio type allows only one selection -->
                     </div>
                 </fieldset>
@@ -96,13 +96,13 @@
                           </div>
                           <div class="col-sm-6 col-md-4">
                                   <label for="sinistre">COACHING:</label><br>
-                                  <h5>Clic on rectangle to details  your needs and wishes</h5>
+                                  <h6>Clic on rectangle to details  your needs and wishes</h6>
                                   <textarea id="Incident" name="Reparations"></textarea>
                                   <!--  This element allows user to write multiple lines text and he could resize it a volo-->
                           </div>
                           <div class="col-sm-6 col-md-4">
                                   <label for="depannage">MODULE:</label>
-                                  <h5>Clic on the arrow to make your choice</h5>
+                                  <h6>Clic on the arrow to make your choice</h6>
                                   <select id="depannage" name="client_module">
                                     <!--  select element allows user to pick set of predefined options-->
                                     <optgroup label="Basic Training">
@@ -130,18 +130,25 @@
                 <fieldset>
                           <div class="col-sm-6 col-md-4">
                                   <legend><span class="number">C.</span>PRICES</legend>
-                          </div>
-                          <div class="col-xs-6 col-sm-4">
-                                  <label>Terms of payment</label><br>
-                                  <h5>Here, you can choice more then one option by clicking cases</h5>
+                                    <h6>Here, you can choice more then one option by clicking cases</h6>
+
                           </div>
                           <div class="col-sm-6 col-md-4">
-                            <label class="light"for="check">check</label><input type="checkbox" id="check" value="cheque" name="terms">
-                            <label class="light"for="carte_beu">Blue Card</label><input type="checkbox" id="Bleu_card" value="carte_bleu" name="terms">
-                            <label class="light"for="net">Internet</label><input type="checkbox" id="net" value="net" name="terms">
-                            <label class="light"for="installment">By installment</label><input type="checkbox" id="installment" value="increments" name="terms">
+                            <label>Terms of payment</label><br>
+                            <label class="light"for="check">check</label><br><input type="checkbox" id="check" value="cheque" name="terms"><br>
+                            <label class="light"for="carte_beu">Blue Card</label><br><input type="checkbox" id="Bleu_card" value="carte_bleu" name="terms"><br>
+                            <label class="light"for="net">Internet</label><br><input type="checkbox" id="net" value="net" name="terms"><br>
+                            <label class="light"for="installment">By installment</label><br><input type="checkbox" id="installment" value="increments" name="terms">
                             <!--checkbox allows to select more then 1 option, for instance user can choose the first and the last one  -->
                           </div>
+                          <div class="col-xs-6 col-sm-4">
+                                  <label for="individual_program_annual_subscription">Individual Program: 35 &euro;/hour</label><br><input type="radio" id="individual_program_annual_subscription" value="individual_program_annual_subscription" name="annual_subscription_individual_tarif"><br>
+                                  <label for="group_program_annual_subscription">Group Program: 30 &euro;/hour</label><br><input type="radio" id="group_program_annual_subscription" value="group_program_annual_subscription" name="annual_subscription_group_tarif">
+                                  <!-- radio type allows only one selection -->
+                                  <!--  special character for currency (euro, dollard, yen ,etc.)-->
+
+                          </div>
+
                 </fieldset>
               </div>
                 <button type="submit" class="button">SIGN UP</button>
@@ -155,6 +162,7 @@
         </div>
 
     </div>
+  </div>
     <!--  footer starts here========================================================-->
     <footer class="color_list">
         <h4>1882 Tatami street Kyoto, NIHON</h4>
