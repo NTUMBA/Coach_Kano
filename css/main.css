@@ -111,6 +111,10 @@ font: normal, 1.5em, bold, cursive;
 padding-top: 15px;
 padding-bottom: 8px;
 }
+h5{
+  color: lawngreen;
+  font-weight: bold;
+}
 .compagny{
   border: 3px solid #eee;
   border-radius: 5%;
@@ -125,7 +129,7 @@ padding-bottom: 8px;
   width: 75%;
   height: 80%;
   background-color: lawngreen;
-  padding: 5px 1px 5px 45px;
+  padding: 5px 2px 5px 45px;
 
 }
 ul {
@@ -145,6 +149,7 @@ background-color: darkmagenta;
 max-height: 80%;
 width: 95%;
 height: 750px;
+padding-top: 5%;
 }
 /*carousel======================================================================*/
 .carousel-inner{
@@ -242,15 +247,43 @@ footer p{
   text-align: center;
 
 }
+/*about starts here=======================================================================*/
+.video{
+     position: sticky;
+     right: 0;
+     bottom: 0;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: -100;
+     background-size: cover;
+
+}
 /* ##################################################################### */
 /* Small devices (tablets, 769px and up) */
-   @media (min-width: 769px) {
+   @media (min-width: 310px) {
      .wrap{
-       min-height:calc(100vh- 215px);
+       min-height:calc(100vh);
            }
 
 }
-/*very large screen*/
+
+
+/* Small devices (tablets, 769px and up) */
+   @media (min-width: 769px) {
+     .wrap{
+       min-height:calc(100vh);
+           }
+
+}
+/* ############################   DESKTOPS   ########################### */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:990px) {
+  .wrap{
+    min-height:calc(100vh);
+  }
+}
 
 @media screen and (min-width: 1010px) {
 
@@ -258,8 +291,8 @@ footer p{
  margin: 5% 5% 5% 15%;
 }
 
-.wrap {
- height : auto;
+/*.wrap {
+ height : auto;*/
 
 }
 }
