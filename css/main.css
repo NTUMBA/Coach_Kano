@@ -101,6 +101,7 @@ textarea {
 body{
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   background-image: radial-gradient(circle, lawngreen, darkmagenta);
+  text-align: center;
 }
 header, footer{
   color: darkmagenta;
@@ -121,9 +122,10 @@ padding-bottom: 8px;
 
 .wrapper{
   margin: 0 auto;
-  width: 70%;
+  width: 75%;
   height: 80%;
   background-color: lawngreen;
+  padding-left: 5%;
 }
 ul {
   display: flex;
@@ -138,18 +140,23 @@ ul li{
 ==============================================================================*/
 
 section{
-background-color: rgb(40,50,78);
+background-color: darkmagenta;
+max-height: 80%;
+width: 100%;
+height: 750px;
+padding-right: 20%;
 }
 /*carousel======================================================================*/
 .carousel-inner{
-  max-height: 70%;
-  width: auto;
-  height: 700px;
+  max-height: 50%;
+  width: 70%;
+  height: 500px;
+  margin: auto;
 }
 .carousel-inner img{
  width: 90%;
  height:85%;
- margin: 10% auto;
+ margin: 5% auto;
 }
 
 
@@ -174,6 +181,61 @@ section .border{
   background-color: violet;
 }
 
+/*individual_program's file=====================================================*/
+.activities{
+  width: 100%;
+  height: 2%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#bgvid {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto;
+   z-index: -100;
+   background-size: cover;
+
+}
+/*individual_program's file ends here=====================================================*/
+
+/*monitoring starts here===================================================================*/
+.background {
+  color:#adff2f;
+  font-weight: bold;
+  height: 300px;
+  border: 1px dotted lawngreen;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .8;
+}
+.background:hover {
+  opacity: 12;
+}
+.figure_1{
+  background-image: url("../img/test.jpg");
+
+}
+.figure_2{
+  background-image: url("../img/monitoring_staf.jpg");
+
+}
+.figure_3{
+  background-image: url("../img/parameters.jpg");
+
+}
+.figure_4{
+  background-image: url("../img/feeling.jpg");
+
+}
+
+
+
+/*monitoring ends here===================================================================*/
 
 footer p{
   text-align: center;
@@ -183,7 +245,7 @@ footer p{
 /* Small devices (tablets, 769px and up) */
    @media (min-width: 769px) {
      .wrap{
-       min-height:calc(100vh- 143px);
+       min-height:calc(100vh- 215px);
            }
 
 }
