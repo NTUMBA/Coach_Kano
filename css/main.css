@@ -195,7 +195,7 @@ section .border{
   padding: 0;
 }
 
-#bgvid {
+/*#bgvid {
    position: absolute;
    right: 0;
    bottom: 0;
@@ -206,7 +206,7 @@ section .border{
    z-index: -100;
    background-size: cover;
 
-}
+}*/
 /*individual_program's file ends here=====================================================*/
 
 /*monitoring starts here===================================================================*/
@@ -214,11 +214,17 @@ section .border{
   color:#adff2f;
   font-weight: bold;
   height: 300px;
+  width: 220px;
   border: 1px dotted lawngreen;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: .8;
 }
+.row .fig{
+  margin-right: 60px;
+
+}
+
 .background:hover {
   opacity: 12;
 }
@@ -232,12 +238,15 @@ section .border{
 }
 .figure_3{
   background-image: url("../img/parameters.jpg");
+  margin-right: 60px;
+  margin-left: 50px;
+
 
 }
 .figure_4{
   background-image: url("../img/feeling.jpg");
-
 }
+
 
 
 
