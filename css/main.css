@@ -127,7 +127,7 @@ h5{
 .wrapper{
   margin: 0 auto;
   width: 75%;
-  height: 80%;
+  height: 50%;
   background-color: lawngreen;
   padding: 5px 2px 5px 45px;
 
@@ -189,8 +189,8 @@ section .border{
 
 /*individual_program's file=====================================================*/
 .activities{
-  width: 100%;
-  height: 2%;
+  width: 90%;
+  height: 1%;
   margin: 0 auto;
   padding: 0;
 }
