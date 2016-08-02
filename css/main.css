@@ -115,9 +115,11 @@ h5{
   color: lawngreen;
   font-weight: bold;
 }
+#logo{
+  width:60px;
+  border-radius: 50%;
+}
 .compagny{
-  border: 3px solid #eee;
-  border-radius: 5%;
   padding: 0 8px;
   color: lawngreen;
   font-weight: bold;
