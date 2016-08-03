@@ -100,37 +100,51 @@ textarea {
 }
 body{
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  background-image: radial-gradient(circle, lawngreen, darkmagenta);
+  background-image: radial-gradient(circle, #eee, #a9a9a9);
   text-align: center;
+    color: #eee;
 }
 header, footer{
-  color: darkmagenta;
 background-color:violet;
 width: 100%;
 font: normal, 1.5em, bold, cursive;
 padding-top: 15px;
 padding-bottom: 8px;
 }
-h5{
-  color: lawngreen;
+h4{
+  color:white;
   font-weight: bold;
 }
 #logo{
-  width:60px;
+  width:150px;
   border-radius: 50%;
 }
 .compagny{
+  font-size: 2rem;
+  border-radius: 5%;
   padding: 0 8px;
-  color: lawngreen;
   font-weight: bold;
-  font-family: cursive, serif, Helvetica;
+  font-family: serif, fantasy, monospace;
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
+
 
 .wrapper{
   margin: 0 auto;
   width: 75%;
   height: 80%;
-  background-color: lawngreen;
+  /*background-color: lawngreen;*/
   padding: 5px 2px 5px 45px;
 
 }
@@ -142,12 +156,17 @@ ul li{
   list-style: none;
   font-weight: bold;
 }
+.colortext{
+    color: black;
+}
+
 
 /*Index======================================================================
 ==============================================================================*/
 
 section{
-background-color: darkmagenta;
+    background-image: radial-gradient(circle, #eee, lawngreen);
+background-color:;
 max-height: 80%;
 width: 95%;
 height: 750px;
@@ -180,14 +199,15 @@ padding-top: 5%;
 }
 
 section p{
-    color: #eee;
+
     text-align: center;
 }
 section .border{
   border: 1px dotted deepskyblue;
   font-family: Helvetica, sans-serif;
-  background-color: violet;
+  /*background-color: violet;*/
 }
+
 
 /*individual_program's file=====================================================*/
 .activities{
@@ -213,7 +233,7 @@ section .border{
 
 /*monitoring starts here===================================================================*/
 .background {
-  color:#adff2f;
+  /*color:#adff2f;*/
   font-weight: bold;
   height: 300px;
   width: 220px;
