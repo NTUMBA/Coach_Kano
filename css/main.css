@@ -110,16 +110,13 @@ font: normal, 1.5em, bold, cursive;
 padding-top: 15px;
 padding-bottom: 8px;
 }
-header{
-  background-color:#6E90A8;
-}
-footer,.decofont{
-  background-color:#4D6B8E;
+header,footer,.decofont{
+  background-color:#648919;
 }
 h4{
   font-weight: bold;
 }
-h4,h5,a,.colortext{
+h5,a,.colortext{
   color:#f0f0f1;
 }
 #logo{
@@ -146,8 +143,6 @@ h4,h5,a,.colortext{
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
 }
-
-
 .wrapper{
   margin: 0 auto;
   width: 75%;
@@ -167,7 +162,7 @@ ul li{
 ==============================================================================*/
 
 section{
-background-image: radial-gradient(circle, #eee, #648919);
+background-image: radial-gradient(circle, #eee, #4D6B8E);
 max-height: 80%;
 width: 95%;
 height: 750px;
@@ -264,14 +259,14 @@ footer p{
   width:180px;
 }
 /* ##################################################################### */
-/* Small devices (tablets, 769px and up) */
+/* Small devices (tablets, 544px ) */
+
    @media (min-width: 544px) {
      .wrap{
        min-height:(100vh);
            }
 
 }
-
 
 /* Small devices (tablets, 769px and up) */
    @media (min-width: 769px) {
