@@ -182,6 +182,9 @@ padding-top: 5%;
  margin: 5% auto;
 }
 /*membership_form===============================================================*/
+fieldset{
+  color:#648919;
+}
 .form_sign_up{
   /*border: 4px solid black;*/
   padding-bottom: 10px;
@@ -189,7 +192,7 @@ padding-top: 5%;
 }
 .button{
   text-align: center;
-       background-color: lawngreen;
+       background-color: #72705E;
 }
 
 section p{
@@ -199,7 +202,6 @@ section p{
 section .border{
   border: 1px dotted deepskyblue;
   font-family: Helvetica, sans-serif;
-  /*background-color: violet;*/
 }
 
 
