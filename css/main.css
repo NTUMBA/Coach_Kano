@@ -105,21 +105,29 @@ body{
     color: #eee;
 }
 header, footer{
-background-color:violet;
 width: 100%;
 font: normal, 1.5em, bold, cursive;
 padding-top: 15px;
 padding-bottom: 8px;
 }
+header{
+  background-color:#6E90A8;
+}
+footer,.decofont{
+  background-color:#4D6B8E;
+}
 h4{
-  color:white;
   font-weight: bold;
+}
+h4,h5,a,.colortext{
+  color:#f0f0f1;
 }
 #logo{
   width:150px;
   border-radius: 50%;
 }
 .compagny{
+  color:#6E90A8;
   font-size: 2rem;
   border-radius: 5%;
   padding: 0 8px;
@@ -143,8 +151,7 @@ h4{
 .wrapper{
   margin: 0 auto;
   width: 75%;
-  height: 80%;
-  /*background-color: lawngreen;*/
+  height: 80%;/
   padding: 5px 2px 5px 45px;
 
 }
@@ -156,17 +163,11 @@ ul li{
   list-style: none;
   font-weight: bold;
 }
-.colortext{
-    color: black;
-}
-
-
 /*Index======================================================================
 ==============================================================================*/
 
 section{
-    background-image: radial-gradient(circle, #eee, lawngreen);
-background-color:;
+background-image: radial-gradient(circle, #eee, #648919);
 max-height: 80%;
 width: 95%;
 height: 750px;
@@ -183,10 +184,8 @@ padding-top: 5%;
 .carousel-inner img{
  width: 90%;
  height:85%;
- margin: 5% autos;
+ margin: 5% auto;
 }
-
-
 /*membership_form===============================================================*/
 .form_sign_up{
   /*border: 4px solid black;*/
@@ -217,27 +216,14 @@ section .border{
   padding: 0;
 }
 
-/*#bgvid {
-   position: absolute;
-   right: 0;
-   bottom: 0;
-   min-width: 100%;
-   min-height: 100%;
-   width: auto;
-   height: auto;
-   z-index: -100;
-   background-size: cover;
-
-}*/
 /*individual_program's file ends here=====================================================*/
 
 /*monitoring starts here===================================================================*/
 .background {
-  /*color:#adff2f;*/
   font-weight: bold;
   height: 300px;
   width: 220px;
-  border: 1px dotted lawngreen;
+  border: 1px dotted #648919;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: .8;
@@ -268,29 +254,12 @@ section .border{
 .figure_4{
   background-image: url("../img/feeling.jpg");
 }
-
-
-
-
 /*monitoring ends here===================================================================*/
 
 footer p{
   text-align: center;
-
 }
 /*about starts here=======================================================================*/
-/*.video{
-     position: sticky;
-     right: 0;
-     bottom: 0;
-     min-width: 100%;
-     min-height: 100%;
-     width: auto;
-     height: auto;
-     z-index: -100;
-     background-size: cover;
-
-}*/
 .picture{
   width:180px;
 }
